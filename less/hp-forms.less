@@ -1,0 +1,171 @@
+// variables 
+@hp-form-width:380px;
+@hp-form-width-sm:100%;
+
+// Question sets
+.q-set h2 {
+	.delta;
+	margin-bottom: @space-4;
+}
+
+// list label styles
+.hp-list-label {
+	.text-normal;
+	color: @cl-g1;
+	display: block;
+	width: 100%;
+}
+.hp-list {
+	border-bottom: 1px solid @cl-g4;
+	margin-bottom: @space-3;
+	padding-bottom: @space-3;
+}
+.hp-list label:hover {
+	background-color: @cl-g6;
+	padding: @space-3 0;
+	margin: -@space-3 0;
+	margin-left: -@space-1;
+}
+.hp-list-label-specify {
+	margin-bottom: @space-3;
+	font-weight: bold!important;
+//	color: @cl-g3!important;
+}
+
+//quantity
+.hp-list-quantity {
+	display: flex;
+	align-items: center;
+}
+.hp-list-quantity .hp-list-label {
+	line-height: 36px;
+}
+.quantity-group-btn {
+	display: flex;
+}
+.quantity-group-btn button:hover {
+	background-color: @cl-g6;
+	
+}
+
+//radio
+.styled-form__input--radio~span {
+    padding-left: 0;
+ }
+.styled-form__input--radio~span::before {
+	left: ~"calc(100% - 22px)"; 
+	@media (min-width: @screen-sm) {
+    	left: ~"calc(@{hp-form-width} - 22px)"; 
+    }
+ }
+.styled-form__input--radio~span::after {
+	left: ~"calc(100% - 16px)"; 
+	@media (min-width: @screen-sm) {
+    	left: ~"calc(@{hp-form-width} - 16px)"; 
+    }
+ }
+ 
+ 
+ //checkbox
+.styled-form__input--checkbox~span {
+    padding-left: 0;
+ }
+.styled-form__input--checkbox~span::before {
+	left: ~"calc(100% - 22px)"; 
+	@media (min-width: @screen-sm) {
+    	left: ~"calc(@{hp-form-width} - 22px)"; 
+    }
+ }
+.styled-form__input--checkbox~span::after {
+	left: ~"calc(100% - 22px)"; 
+	@media (min-width: @screen-sm) {
+    	left: ~"calc(@{hp-form-width} - 22px)"; 
+    }
+ }
+
+// toggles
+.styled-form__input--toggle+span {
+    height: 36px;
+    line-height: 36px;
+    height: 50px;
+    line-height: 50px;
+}
+.hp-list-toggle {
+	display: flex;
+	align-items: center;
+}
+.hp-list-toggle-break .hp-list-label {
+	margin-bottom: @space-3;
+}
+.hp-list.hp-list-toggle-break {
+	border: none;
+}
+.styled-form__field--toggles-container {
+	width: 110px;
+}
+.styled-form__field--toggles-container span {
+	width: 55px;
+}
+.hp-list-toggle label:hover {
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+.fuel-toggle {
+	width: 220px;
+}
+.fuel-toggle span {
+	width: 110px;
+	font-size: 14px;
+}
+.three-toggle {
+	max-width: @hp-form-width;
+	@media (min-width: @screen-sm) {
+		width: @hp-form-width;
+	}
+}
+
+.styled-form__field--toggles-container.three-toggle span {
+	width: ~"calc(100% / 3)"; 
+	@media (min-width: @screen-sm) {
+    	width: ~"calc(@{hp-form-width} / 3)"; 
+    }
+}
+
+.q-set-level-02 {
+	margin-top: @space-4;
+	margin-bottom: @space-5;
+}
+.q-set-level-02 .hp-list {
+	border-bottom: none;
+	padding-bottom: 0;	
+}
+.q-set-level-02 .hp-list-label {
+	.text-small;
+}
+
+
+.styled-form__field--toggles-container.two-toggle span {
+	width: ~"calc(100% / 2)";
+	@media (min-width: @screen-sm) {
+    	width: ~"calc(@{hp-form-width} / 2)"; 
+    }
+}
+.styled-form__field--toggles-container.four-toggle span {
+	width: ~"calc(100% / 4)";
+	@media (min-width: @screen-sm) {
+    	width: ~"calc(@{hp-form-width} / 4)"; 
+    }
+}
+.styled-form__field--toggles-container.five-toggle span {
+	width: ~"calc(100% / 5)";
+	@media (min-width: @screen-sm) {
+    	width: ~"calc(@{hp-form-width} / 5)"; 
+    }
+}
+.styled-form__field--toggles-container.six-toggle span {
+	width: ~"calc(100% / 6)";
+	@media (min-width: @screen-sm) {
+    	width: ~"calc(@{hp-form-width} / 6)"; 
+    }
+}

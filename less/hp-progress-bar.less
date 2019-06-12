@@ -1,0 +1,78 @@
+.step-bar {
+	padding: 0 @space-3;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: @space-3;
+	max-width: 600px;
+	@media (min-width: @screen-sm) {
+		padding: 0;
+		}
+}
+.step-bar-start {
+	
+}
+.step-bar-bar {
+	display: flex;
+}
+.step-bar-line {
+	height: 1px;
+	background-color: @cl-g4;
+	width: ~"calc(100% - 30px)";
+}
+.step-bar-start,
+.step-bar-end {
+	width: 15px;
+	height: 15px;
+	background-color: @cl-g4;
+	border-radius: 15px;
+	position: relative;
+	top:-7px;
+	border: 3px solid @cl-g6;
+}
+.step-bar-status {
+	width: 70px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	position: relative;
+	top: -27px;
+	left: 12%;
+}
+.step-bar-marker {
+	width: 25px;
+	height: 25px;
+	background-color: @cl-ocean;
+	border-radius: 15px;
+	margin: 0 auto @space-1;
+	border: 6px solid rgb(0, 28, 176);
+    border: 6px solid rgba(0, 28, 176, .1);
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.step-bar-label {
+	.text-smallest;
+	width: 70px;
+	text-align: center;
+}
+.step-bar-status.step-bar-step-02 {
+	left: 24%;
+}
+.step-bar-status.step-bar-step-03 {
+	left: 36%;
+}
+.step-bar-status.step-bar-step-04 {
+	left: 48%;
+}
+.step-bar-status.step-bar-step-05 {
+	left: 60%;
+}
+.step-bar-status.step-bar-step-06 {
+	left: 72%;
+}
+.step-bar-status.step-bar-step-07 {
+	left: 84%;
+}
+.step-bar-status.step-bar-step-08 {
+	left: 96%;
+}

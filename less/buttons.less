@@ -1,0 +1,52 @@
+
+
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: @cl-sun;
+    color: @cl-g1;
+    border-radius: 4px;
+    font-family: @displayStack;
+    font-size: 14px;
+    font-weight: @fw-bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	box-shadow: @shadow-small;
+    width: 100%;
+    cursor: pointer;
+    @media (min-width: @screen-sm) {
+			width: 180px;
+	    }
+}
+.btn-primary:hover {
+	background-color: darken(@cl-sun, 15);
+	color: @cl-g1;
+	text-decoration: none!important;
+}
+.btn-secondary {
+    background-color: @cl-ocean;
+    color: white;
+}
+
+.btn-tertiary {
+    background-color: @cl-g6;
+    color: @cl-g1;
+}
+
+.btn-text {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: @displayStack;
+	color: @cl-ocean;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	width: 100%;
+}
+.btn-text:hover {
+	color: darken(@cl-ocean, 15);
+}
+

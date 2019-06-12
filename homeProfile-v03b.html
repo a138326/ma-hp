@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=0">
+<meta name = "format-detection" content = "telephone=no">
+<title>AGL Energy - My Account</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/00-ma-styles.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+</head>
+<body>
+
+    <!-- header -->
+<div class="header container-fluid" >
+    <div class="container" id="header">Header</div>
+</div>
+    
+<div class="header container-fluid" id="subheader-manAcc">
+    <div class="container" >Home Profile</div>
+</div>
+    <!-- /header -->
+    
+    <!-- content -->
+<div class="container hp-content"> 
+    
+    <div class="row">
+        
+        <div class="manAcc-heading">
+            <h1>Heating your home</h1>
+        </div>
+        
+        <section class="step-bar">
+	        <div class="step-bar-bar">
+		        <div class="step-bar-start"></div>
+		        <div class="step-bar-line"></div>
+	        	<div class="step-bar-end"></div>
+	        </div>
+	        <div class="step-bar-status step-bar-step-03">
+		        <div class="step-bar-marker"></div>
+				<div class="step-bar-label">Page 3 of 8</div>
+	        </div>
+        </section>
+        
+        
+<!-- Form Card -->        
+        <section class="card-panel hp-form">
+
+
+<!-- Question Set -->
+	        <div class="q-set-wrapper">
+			<div class="q-set">
+
+
+<!-- Form -->				
+				<form action="">
+				
+				<h2>How do you heat your home?</h2>
+
+<!-- List 01 -->				
+				<div class="styled-form__field styled-form__field--checkbox hp-list">
+				<label class="styled-form__field--checkbox__label" for="heat-01">
+					<input class="styled-form__input styled-form__input--checkbox" type="checkbox" id="heat-01" name="heat">
+					<span class="hp-list-label">Air-conditioning</span>	
+				</label>
+
+<!-- List 01 - expanded -->				
+				<div class="q-set-level-02" id="heat-01-more">
+				<div class=" hp-list hp-list-quantity">
+					<span class="hp-list-label">How many split systems?</span>
+					<div class="quantity-group-btn">
+						<div class="">
+							<button type="button" class="quantity-left-minus btn btn-number"  data-type="minus" data-field="">
+								<span class="glyphicon glyphicon-minus"></span>
+							</button>
+						</div>
+						<input type="text" id="quantity" name="quantity" class="quantity-middle-no styled-form__input styled-form__input--text" value="1" min="1" max="100">
+						<div class="">
+							<button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+				</div>
+<!-- /List 01 - expanded -->	
+				
+
+				</div>
+<!-- /List 01 -->
+				
+				
+<!-- List 02 -->				
+				<div class="styled-form__field styled-form__field--checkbox hp-list">
+				<label class="styled-form__field--checkbox__label" for="heat-02">
+					<input class="styled-form__input styled-form__input--checkbox" type="checkbox" id="heat-02" name="heat">
+					<span class="hp-list-label">Ducted heating</span>	
+				</label>
+				
+				
+<!-- List 02 - expanded -->				
+				<div class="q-set-level-02" id="heat-02-more">
+				<div class=" hp-list hp-list-toggle">
+					<span class="hp-list-label">Type of heating</span>
+					<div class="styled-form__field styled-form__field--toggles">
+						<div class="styled-form__field--toggles-container fuel-toggle">
+							<label class="styled-form__field--toggles__label" for="ducted-yes">
+								<input class="styled-form__input--toggle" type="radio" name="ducted" id="ducted-yes">
+								<span>Electricity</span>
+							</label>
+							<label class="styled-form__field--toggles__label" for="ducted-no">
+								<input class="styled-form__input--toggle" type="radio" name="ducted" id="ducted-no">
+								<span>Gas</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				</div>
+<!-- /List 02 - expanded -->									
+
+
+				</div>
+<!-- /List 02 -->				
+				
+				
+<!-- List 03 -->				
+				<div class="styled-form__field styled-form__field--checkbox hp-list">
+				<label class="styled-form__field--checkbox__label" for="heat-03">
+					<input class="styled-form__input styled-form__input--checkbox" type="checkbox" id="heat-03" name="heat">
+					<span class="hp-list-label">Portable electric heating</span>	
+				</label>
+				
+				
+<!-- List 03 - expanded -->				
+				<div class="q-set-level-02" id="heat-03-more">
+				<div class=" hp-list hp-list-quantity">
+					<span class="hp-list-label">Number of units</span>
+					<div class="quantity-group-btn">
+						<div class="">
+							<button type="button" class="quantity-left-minus btn btn-number"  data-type="minus" data-field="">
+								<span class="glyphicon glyphicon-minus"></span>
+							</button>
+						</div>
+						<input type="text" id="quantity" name="quantity" class="quantity-middle-no styled-form__input styled-form__input--text" value="1" min="1" max="100">
+						<div class="">
+							<button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+				</div>
+<!-- / List 03 - expanded -->	
+				
+				
+				</div>
+<!-- / List 03 -->				
+				
+			
+				
+<!-- List 04 -->				
+				<div class="styled-form__field styled-form__field--checkbox hp-list">
+				<label class="styled-form__field--checkbox__label" for="heat-04">
+					<input class="styled-form__input styled-form__input--checkbox" type="checkbox" id="heat-04" name="heat">
+					<span class="hp-list-label">Other heating</span>	
+				</label>
+				
+				
+<!-- List 04 - expanded -->	
+				<div class="q-set-level-02" id="heat-04-more">
+				<div class="hp-list-label hp-list-label-specify">Please specify</div>
+				
+				<div class=" hp-list hp-list-toggle">	
+					<div class="styled-form__field styled-form__field--toggles ">
+						<div class="styled-form__field--toggles-container three-toggle">
+							
+							<label class="styled-form__field--toggles__label" for="heat-other-01">
+								<input class="styled-form__input--toggle" type="radio" name="ducted" id="heat-other-01">
+								<span>Electricity</span>
+							</label>
+							
+							<label class="styled-form__field--toggles__label" for="heat-other-02">
+								<input class="styled-form__input--toggle" type="radio" name="ducted" id="heat-other-02">
+								<span>Gas</span>
+							</label>
+							
+							<label class="styled-form__field--toggles__label" for="heat-other-03">
+								<input class="styled-form__input--toggle" type="radio" name="ducted" id="heat-other-03">
+								<span>Wood</span>
+							</label>
+						
+						</div>
+					</div>
+				</div>
+
+				</div>
+<!-- / List 04 - expanded -->							
+		
+				
+				</div>
+<!-- / List 04 -->						
+
+
+<!-- List 05 -->				
+				<div class="styled-form__field styled-form__field--checkbox hp-list">
+				<label class="styled-form__field--checkbox__label" for="heat-05">
+					<input class="styled-form__input styled-form__input--checkbox" type="checkbox" id="heat-05" name="heat">
+					<span class="hp-list-label">I don't have heating in my home</span>
+				</label>				
+				</div>
+<!-- / List 05 -->				
+
+				</form>
+	        
+	        </div>				
+	        </div>
+<!-- /Question Set -->
+	        
+	        
+	        <div class="q-set-image">
+		        <img src="images/heating.svg" alt="" widht="100%" height="auto">
+	        </div>
+	        
+	        
+        </section>
+ <!-- / Form Card --> 
+        
+        
+        
+        <section class="save-close">
+        	<a href="homeProfile-v04.html"><div class="btn-primary">Next</div></a>
+        	<div class="btn-text">Save and close</div>
+        </section>
+        
+        </div>
+    
+
+
+    
+    
+    </div>
+
+    
+</div>
+    <!-- /content -->
+    
+ 
+<div class="footer container-fluid">Footer</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/homeprofile.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/increment.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+

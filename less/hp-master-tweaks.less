@@ -1,0 +1,62 @@
+
+// container 
+.hp-content {
+    max-width: 900px;
+}
+
+// Question headings
+.q-set h2 {
+	//.epsilon;
+	.delta;
+	margin-bottom: @space-5;
+	@media (min-width: @screen-sm) {
+		//.delta;
+		//margin-bottom: @space-4;
+		}
+	//font-weight: bold;
+	color: @cl-ocean;
+}
+
+// List labels
+.hp-list-label {
+	font-size: @text-small-size;
+	@media (min-width: @screen-sm) {
+		font-size: @text-normal-size;
+		}
+}
+// remove hover
+.hp-list label:hover {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+}
+
+// Level 2 list labels
+.q-set-level-02 {
+	margin-bottom: -15px;
+}
+.q-set-level-02 .hp-list-label {
+	font-size: @text-small-size;
+	@media (min-width: @screen-sm) {
+		//font-size: @text-normal-size;
+		}
+}
+.q-set-level-02 .hp-list {
+	margin-bottom: @space-4;
+}
+
+
+// remove left or right
+.styled-form__input--checkbox~span,
+.styled-form__input--radio~span {
+    padding-left: ~"calc(@{space-3} + 22px)"; 
+ }
+.styled-form__input--checkbox~span::before,
+.styled-form__input--radio~span::before,
+.styled-form__input--checkbox~span::after {
+	left: 0;
+ }
+.styled-form__input--radio~span::after {
+	left:6px;
+ }

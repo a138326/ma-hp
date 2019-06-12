@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="526px" height="498px" viewBox="0 0 526 498" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="82.3936819%" gradientTransform="translate(0.500000,0.000000),scale(0.363118,1.000000),rotate(90.000000),scale(1.000000,2.008246),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#E2E2E2" offset="0%"></stop>
+            <stop stop-color="#F5F5F5" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="animation/shading" transform="translate(0.000000, 307.000000)" fill="url(#radialGradient-1)">
+                <rect id="Rectangle-2" x="0" y="0" width="526" height="191"></rect>
+            </g>
+            <g id="animation/fridge-360px" transform="translate(93.000000, 90.000000)">
+                <rect id="Rectangle-path" x="0" y="0" width="340" height="285"></rect>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(41.555556, 0.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="50.3703704" y="90.9158879" width="122.206992" height="193.196262"></rect>
+                    <rect id="Rectangle-path" fill="#80EFF6" x="58.0906888" y="98.1074766" width="106.954656" height="158.481308"></rect>
+                    <polygon id="Shape" fill="#00DEEC" points="115.334026 119.149533 115.334026 256.588785 165.045344 256.588785 165.045344 98.1074766"></polygon>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="172.671513" y="90.9158879" width="122.206992" height="172.953271"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="50.3703704" y="0.0887850467" width="122.206992" height="86.4766355"></rect>
+                    <rect id="Rectangle-path" fill="#80EFF6" x="180.297681" y="98.1074766" width="106.954656" height="158.481308"></rect>
+                    <rect id="Rectangle-path" fill="#E0E0E0" x="50.3703704" y="86.5654206" width="122.206992" height="4.35046729"></rect>
+                    <rect id="Rectangle-path" fill="#E0E0E0" x="50.3703704" y="263.780374" width="122.206992" height="4.35046729"></rect>
+                    <polygon id="Shape" fill="#CCCCCC" points="0.7532018 268.130841 0.7532018 21.1308411 50.3703704 0.0887850467 50.3703704 284.11215"></polygon>
+                    <polygon id="Shape" fill="#B2F5FA" opacity="0.8" points="58.0906888 98.1074766 58.0906888 119.149533 115.334026 119.149533 165.045344 98.1074766"></polygon>
+                    <polygon id="Shape" fill="#B2F5FA" opacity="0.8" points="58.0906888 150.934579 58.0906888 171.976636 115.334026 171.976636 165.045344 150.934579"></polygon>
+                    <polygon id="Shape" fill="#B2F5FA" opacity="0.8" points="58.0906888 203.761682 58.0906888 224.803738 115.334026 224.803738 165.045344 203.761682"></polygon>
+                    <rect id="Rectangle-path" fill="#CCCCCC" transform="translate(59.983862, 43.371318) rotate(-90.000000) translate(-59.983862, -43.371318) " x="48.5446093" y="41.5512243" width="22.8785047" height="3.64018692"></rect>
+                    <g id="Group" transform="translate(209.013499, 212.196262)" fill="#001CB0" fill-rule="nonzero">
+                        <path d="M30.8812738,0.443925234 L30.8812738,37.2009346 C30.8812738,38.9766355 29.3748702,40.3971963 27.4918657,40.3971963 L4.61336102,40.3971963 C2.73035652,40.3971963 1.22395292,38.9766355 1.22395292,37.2009346 L1.22395292,0.443925234 L30.8812738,0.443925234 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="0.3766009" y="0.443925234" width="31.3520249" height="7.99065421"></rect>
+                    </g>
+                    <path d="M246.86189,147.116822 L234.057459,147.116822 C231.986154,147.116822 230.29145,145.518692 230.29145,143.565421 L230.29145,118.705607 C230.29145,116.752336 231.986154,115.154206 234.057459,115.154206 L246.86189,115.154206 C248.933195,115.154206 250.627899,116.752336 250.627899,118.705607 L250.627899,143.565421 C250.627899,145.518692 248.933195,147.116822 246.86189,147.116822 Z" id="Shape" fill="#001CB0"></path>
+                    <path d="M272.282451,147.116822 L259.47802,147.116822 C257.406715,147.116822 255.712011,145.518692 255.712011,143.565421 L255.712011,118.705607 C255.712011,116.752336 257.406715,115.154206 259.47802,115.154206 L272.282451,115.154206 C274.353756,115.154206 276.04846,116.752336 276.04846,118.705607 L276.04846,143.565421 C276.04846,145.518692 274.353756,147.116822 272.282451,147.116822 Z" id="Shape" fill="#001CB0"></path>
+                    <g id="Group" transform="translate(246.673589, 175.794393)" fill="#001CB0" fill-rule="nonzero">
+                        <path d="M11.0155763,6.48130841 L11.0155763,14.4719626 C11.0155763,30.453271 0.56490135,35.2476636 0.56490135,51.228972 L0.56490135,73.6028037 C0.56490135,75.3785047 2.07130495,76.7990654 3.95430945,76.7990654 L25.9854621,76.7990654 C27.8684666,76.7990654 29.3748702,75.3785047 29.3748702,73.6028037 L29.3748702,51.228972 C29.3748702,35.2476636 18.9241952,30.453271 18.9241952,14.4719626 L18.9241952,6.48130841 L11.0155763,6.48130841 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="10.2623745" y="0.0887850467" width="9.32087227" height="6.39252336"></rect>
+                    </g>
+                    <polygon id="Shape" fill="#FFFFFF" opacity="0.5" points="287.252336 256.588785 180.297681 256.588785 180.297681 236.168224 187.923849 239.808411 279.626168 239.808411 287.252336 236.168224"></polygon>
+                    <rect id="Rectangle-path" fill="#001CB0" x="188.771201" y="121.369159" width="22.0311526" height="25.5700935"></rect>
+                    <polygon id="Shape" fill="#FFFFFF" opacity="0.5" points="287.252336 150.934579 180.297681 150.934579 180.297681 130.514019 187.923849 134.154206 279.626168 134.154206 287.252336 130.514019"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

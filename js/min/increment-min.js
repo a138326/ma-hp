@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=0;$(".quantity-right-plus").click(function(t){t.preventDefault();var a=parseInt($("#quantity").val());$("#quantity").val(a+1)}),$(".quantity-left-minus").click(function(t){t.preventDefault();var a=parseInt($("#quantity").val());a>0&&$("#quantity").val(a-1)})});

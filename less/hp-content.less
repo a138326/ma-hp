@@ -1,0 +1,49 @@
+
+.hp-content {
+    max-width: 900px;
+}
+.hp-content .q-set {
+	margin-bottom: @space-6;
+}
+.hp-content .q-set-last {
+	margin-bottom: 0;
+}
+.hp-content .q-set-wrapper {
+	width: 100%;
+	@media (min-width: @screen-sm) {
+		width: @hp-form-width;
+	}
+}
+
+.hp-content .card-panel {
+	margin-bottom: @space-6;
+	display: flex;
+}
+
+
+.q-set-image {
+	display: none;
+	width: ~"calc(100% - @{hp-form-width})"; 
+	@media (min-width: @screen-sm) {
+		display: block;
+	  }
+}
+.q-set-image img{
+	width: 100%;
+	height: auto;
+}
+
+.save-close {
+	padding: 0 @space-3;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-bottom: @space-6;
+	text-align: center;
+	@media (min-width: @screen-sm) {
+		padding: 0;
+		}
+}
+.save-close .btn-primary {
+	width: 100%;
+	margin-bottom: @space-4;
+}
